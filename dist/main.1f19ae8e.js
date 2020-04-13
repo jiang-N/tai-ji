@@ -143,7 +143,7 @@ var step = function step() {
       n++;
       step();
     }
-  }, 0);
+  }, 50);
 };
 
 step();
